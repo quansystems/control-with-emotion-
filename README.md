@@ -4,7 +4,6 @@ Chương trình ROS 2 Humble dùng DeepFace và OpenCV để nhận diện 6 bi�
 
 - [Hướng dẫn cài đặt và chạy](emotion_control/README.md)
 - [Video và kết quả trên Google Drive](https://drive.google.com/drive/folders/1jWZfR07deVEz_qWt0VAmqhq7rrx8jRdR?usp=sharing)
-- [Báo cáo PDF](BaoCao/BaoCao_BieuCam_TurtleBot4.pdf)
 
 ## Mã nguồn
 
