@@ -1,0 +1,8 @@
+{
+  "model": "small",
+  "input": "Đi đến khu vực A.",
+  "transcript": "Đi đến khu vực A.",
+  "parsed_route": [
+    "A"
+  ]
+}

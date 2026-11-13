@@ -1,0 +1,7 @@
+Water Bottle, Gazebo Fuel, iche033
+Source: https://fuel.gazebosim.org/1.0/iche033/models/Water%20Bottle
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Changes: converted GLB to Collada, baked transform from Y-up to Z-up,
+scaled uniformly to 0.62 m height and placed base at z=0.
+Diffuse texture exported from the original GLB.

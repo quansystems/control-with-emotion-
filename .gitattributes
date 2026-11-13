@@ -1,0 +1,56 @@
+# Detect text automatically and use LF for ROS/Linux development.
+* text=auto eol=lf
+
+# Source, configuration, documentation and XML-based robot assets
+*.py text
+*.sh text
+*.bash text
+*.xml text
+*.urdf text
+*.xacro text
+*.sdf text
+*.dae text
+*.yaml text
+*.yml text
+*.json text
+*.jsonl text
+*.rviz text
+*.toml text
+*.ini text
+*.cfg text
+*.md text
+*.txt text
+*.svg text
+.gitignore text
+.gitattributes text
+
+# Images, maps and documents: preserve bytes and suppress text diffs.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pgm binary
+*.ppm binary
+
+# Meshes, NumPy data, audio, video and archives
+*.stl binary
+*.glb binary
+*.npy binary
+*.npz binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.flac binary
+*.mp4 binary
+*.webm binary
+*.mov binary
+*.avi binary
+*.zip binary
+*.gz binary
+*.7z binary
+*.bag binary
+*.db3 binary
+*.mcap binary

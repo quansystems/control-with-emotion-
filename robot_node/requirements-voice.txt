@@ -1,0 +1,6 @@
+# Install into a venv with --system-site-packages for ROS 2 Humble.
+numpy>=1.23,<2
+openai-whisper==20250625
+sounddevice>=0.4.6,<1
+# Numba imports coverage if present; override Ubuntu's older system copy.
+coverage>=7.10,<8

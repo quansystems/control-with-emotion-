@@ -1,0 +1,69 @@
+{
+  "created": "2026-10-31T08:57:47.257547+07:00",
+  "duration_sec": 121.4,
+  "fps": 15,
+  "resolution": [
+    1600,
+    900
+  ],
+  "audio_source": "synthetic speech",
+  "simulation": "Gazebo Fortress small_room",
+  "asr": "Whisper base local CPU",
+  "navigation": "real Nav2 actions",
+  "scenarios": [
+    {
+      "scenario": "01_room_a",
+      "transcript": "Đi đến phòng học.",
+      "route": [
+        "A"
+      ],
+      "result": "SUCCEEDED: đã đến tất cả khu vực theo thứ tự.",
+      "time_sec": 25.91
+    },
+    {
+      "scenario": "02_laboratory",
+      "transcript": "Đi đến phòng thí nghiệm.",
+      "route": [
+        "B"
+      ],
+      "result": "SUCCEEDED: đã đến tất cả khu vực theo thứ tự.",
+      "time_sec": 50.46
+    },
+    {
+      "scenario": "03_multi_stop",
+      "transcript": "Đi từ phòng học qua hành lang rồi đến phòng thí nghiệm.",
+      "route": [
+        "A",
+        "C",
+        "B"
+      ],
+      "result": "SUCCEEDED: đã đến tất cả khu vực theo thứ tự.",
+      "time_sec": 101.26
+    },
+    {
+      "scenario": "04_unknown",
+      "transcript": "Đi đến phòng thư viễn.",
+      "route": [],
+      "result": "INVALID_COMMAND: Khu vực không tồn tại: phong thu vien",
+      "time_sec": 111.4
+    }
+  ],
+  "audio_tracks": [
+    [
+      3.0038166370004546,
+      "/home/quan2905/turtle/src/Turtlebot4/Voice-Controlled/demo/assets/01_room_a.wav"
+    ],
+    [
+      29.914075925999896,
+      "/home/quan2905/turtle/src/Turtlebot4/Voice-Controlled/demo/assets/02_laboratory.wav"
+    ],
+    [
+      54.46000046999961,
+      "/home/quan2905/turtle/src/Turtlebot4/Voice-Controlled/demo/assets/03_multi_stop.wav"
+    ],
+    [
+      105.25837405000038,
+      "/home/quan2905/turtle/src/Turtlebot4/Voice-Controlled/demo/assets/04_unknown.wav"
+    ]
+  ]
+}

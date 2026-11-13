@@ -1,0 +1,13 @@
+{
+  "model": "small",
+  "catalog_revision": "e8f1ac331e29012001412382f661fedc812cece6b126cbd8ecb16f6a046ef738",
+  "input": "Đi từ khu vực a qua khu vực bê qua khu vực xê rồi đến khu vực đê.",
+  "transcript": "Đi từ khu vực, qua khu vực B, qua khu vực C, rồi đến khu vực đê.",
+  "parsed_route": null,
+  "expected_route": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ]
+}

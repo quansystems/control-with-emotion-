@@ -1,0 +1,18 @@
+emotion_control:
+  ros__parameters:
+    camera_index: 0
+    frame_width: 640
+    frame_height: 480
+    show_image: true
+    mirror_image: true
+    cmd_vel_topic: /cmd_vel
+    odom_topic: /odom
+    confidence_threshold: 0.6
+    stable_samples: 3
+    detection_timeout: 2.0
+    linear_speed: 0.10
+    angular_speed: 0.50
+    arc_duration: 3.0
+    step_duration: 1.0
+    turn_timeout: 20.0
+    odom_timeout: 0.5

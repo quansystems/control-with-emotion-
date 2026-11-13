@@ -1,0 +1,3 @@
+{"time_sec": 0.0, "kind": "navigation_status", "value": "WAITING_MAP: chờ /map khớp bản đồ phân vùng."}
+{"time_sec": 0.0, "kind": "navigation_status", "value": "READY: nhận câu lệnh tại /voice_command."}
+{"time_sec": 0.0, "kind": "waiting_for_user", "value": "Click Thu lệnh in the desktop window to begin."}

@@ -1,0 +1,11 @@
+{
+  "model": "small",
+  "input": "Di chuyển từ khu vực A, qua khu vực B, qua khu vực xê, rồi đến khu vực đê.",
+  "transcript": "Di chuyển từ khu vực A, qua khu vực B, qua khu vực C, rồi đến khu vực Đê.",
+  "parsed_route": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ]
+}

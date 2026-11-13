@@ -1,0 +1,82 @@
+{
+  "created": "2026-10-31T18:40:58.004333+07:00",
+  "catalog": "/home/quan2905/turtle/src/Turtlebot4/Map Partitioning/generated/regions.yaml",
+  "catalog_revision": "e8f1ac331e29012001412382f661fedc812cece6b126cbd8ecb16f6a046ef738",
+  "audio_file": "/home/quan2905/turtle/src/Turtlebot4/Voice-Controlled/checks/latest/navigation_paused.mp3",
+  "audio_source": "synthetic",
+  "model": "small",
+  "expected_route": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "success": true,
+  "transcript": "Di chuyển từ khu vực A, qua khu vực B, qua khu vực C, rồi đến khu vực Đê.",
+  "parsed_route": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "visited": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "result": "SUCCEEDED: đã đến tất cả khu vực theo thứ tự.",
+  "events": [
+    {
+      "time_sec": 1.916,
+      "kind": "navigation_status",
+      "value": "READY: nhận câu lệnh tại /voice_command."
+    },
+    {
+      "time_sec": 19.025,
+      "kind": "transcript",
+      "value": "Di chuyển từ khu vực A, qua khu vực B, qua khu vực C, rồi đến khu vực Đê."
+    },
+    {
+      "time_sec": 19.028,
+      "kind": "navigation_status",
+      "value": "PLANNING: A → B → C → D"
+    },
+    {
+      "time_sec": 19.043,
+      "kind": "navigation_status",
+      "value": "NAVIGATING: 1/4 → A"
+    },
+    {
+      "time_sec": 32.404,
+      "kind": "navigation_status",
+      "value": "NAVIGATING: 2/4 → B"
+    },
+    {
+      "time_sec": 37.465,
+      "kind": "navigation_status",
+      "value": "NAVIGATING: 3/4 → C"
+    },
+    {
+      "time_sec": 53.827,
+      "kind": "navigation_status",
+      "value": "NAVIGATING: 4/4 → D"
+    },
+    {
+      "time_sec": 66.889,
+      "kind": "navigation_status",
+      "value": "SUCCEEDED: đã đến tất cả khu vực theo thứ tự."
+    },
+    {
+      "time_sec": 66.918,
+      "kind": "check_passed",
+      "value": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  ],
+  "duration_sec": 66.92
+}

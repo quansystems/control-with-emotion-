@@ -1,0 +1,72 @@
+# ROS 2 / colcon build outputs and local runtime state
+build/
+install/
+log/
+.colcon/
+.ros/
+.gazebo/
+.ignition/
+.gz/
+*.log
+
+# Python bytecode, test caches and packaging outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+*.egg-info/
+*.egg
+dist/
+.eggs/
+
+# Local Python environments and downloaded model caches
+.venv/
+.venv-*/
+venv/
+env/
+.cache/
+*.pt
+*.pth
+*.onnx
+*.task
+
+# ROS recordings and SQLite recording sidecars
+*.bag
+*.db3
+*.db3-shm
+*.db3-wal
+*.mcap
+rosbag2_*/
+
+# Local map-editing backups; keep the active generated region catalog
+/Map Partitioning/backups/
+
+# Local environment secrets; retain example configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Editor and operating-system temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.orig
+*.rej
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Keep maps, docs, meshes, demo media and Map Partitioning/generated/ in Git:
+# they are project assets, documentation or runtime inputs.

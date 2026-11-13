@@ -1,0 +1,6 @@
+Standing person, version 3
+Author: OpenRobotics; created with MakeHuman
+Source: https://fuel.gazebosim.org/1.0/OpenRobotics/models/Standing%20person
+License: Creative Commons Zero v1.0 Universal (CC0-1.0)
+https://creativecommons.org/publicdomain/zero/1.0/
+Mesh and textures copied without modification.

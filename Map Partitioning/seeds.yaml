@@ -1,0 +1,31 @@
+# Reference seeds from current manual regions; --seeds does not reproduce hand-drawn boundaries.
+regions:
+- id: A
+  name: A
+  aliases: []
+  seed_world:
+  - -1.8549999999999998
+  - -1.145
+- id: B
+  name: B
+  aliases: []
+  seed_world:
+  - 1.895000000000001
+  - -0.895
+- id: C
+  name: C
+  aliases:
+  - khu C
+  - hành lang c
+  - c
+  - xê
+  - xê dài
+  seed_world:
+  - -0.9549999999999996
+  - 1.6549999999999998
+- id: D
+  name: D
+  aliases: []
+  seed_world:
+  - 0.04500000000000037
+  - -0.49499999999999966

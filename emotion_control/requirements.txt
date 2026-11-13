@@ -1,0 +1,8 @@
+# Python 3.10 / ROS 2 Humble. Keep NumPy 1.x compatible with ROS binary modules.
+numpy>=1.23.5,<2
+opencv-python>=4.8,<4.12
+deepface==0.0.93
+# Avoid newer RetinaFace pulling in a second, headless OpenCV distribution.
+retina-face==0.0.17
+tensorflow>=2.16,<2.18
+tf-keras>=2.16,<2.18

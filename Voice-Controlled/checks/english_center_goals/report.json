@@ -1,0 +1,83 @@
+{
+  "created": "2026-10-31T20:49:15.174761+07:00",
+  "catalog": "/home/quan2905/turtle/src/Turtlebot4/Map Partitioning/generated/regions.yaml",
+  "catalog_revision": "b9baa793e9107cde2194e9844e1955cd23af6a02b4e6c9b87fbb592c3804f2f8",
+  "audio_file": "/home/quan2905/turtle/src/Turtlebot4/Voice-Controlled/checks/english_center_goals/navigation_command.mp3",
+  "audio_source": "synthetic",
+  "model": "small",
+  "language": "en",
+  "expected_route": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "success": true,
+  "transcript": "Go from Area A, via Area B, via Area C, then to Area D.",
+  "parsed_route": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "visited": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "result": "SUCCEEDED: đã đến tất cả khu vực theo thứ tự.",
+  "events": [
+    {
+      "time_sec": 2.212,
+      "kind": "navigation_status",
+      "value": "READY: nhận câu lệnh tại /voice_command."
+    },
+    {
+      "time_sec": 22.845,
+      "kind": "transcript",
+      "value": "Go from Area A, via Area B, via Area C, then to Area D."
+    },
+    {
+      "time_sec": 22.849,
+      "kind": "navigation_status",
+      "value": "PLANNING: A → B → C → D"
+    },
+    {
+      "time_sec": 22.883,
+      "kind": "navigation_status",
+      "value": "NAVIGATING: 1/4 → A"
+    },
+    {
+      "time_sec": 40.046,
+      "kind": "navigation_status",
+      "value": "NAVIGATING: 2/4 → B"
+    },
+    {
+      "time_sec": 56.209,
+      "kind": "navigation_status",
+      "value": "NAVIGATING: 3/4 → C"
+    },
+    {
+      "time_sec": 78.171,
+      "kind": "navigation_status",
+      "value": "NAVIGATING: 4/4 → D"
+    },
+    {
+      "time_sec": 91.922,
+      "kind": "navigation_status",
+      "value": "SUCCEEDED: đã đến tất cả khu vực theo thứ tự."
+    },
+    {
+      "time_sec": 91.957,
+      "kind": "check_passed",
+      "value": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  ],
+  "duration_sec": 91.96
+}

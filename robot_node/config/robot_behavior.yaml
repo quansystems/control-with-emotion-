@@ -1,0 +1,20 @@
+robot_behavior_node:
+  ros__parameters:
+    use_sim_time: true
+    gesture_topic: /detected_gesture
+    cmd_vel_topic: /cmd_vel
+    odom_topic: /odom
+    scan_topic: /behavior_scan
+    publish_rate: 20.0
+    stable_sec: 0.25
+    control_timeout_sec: 0.8
+    sensor_timeout_sec: 0.6
+    linear_speed: 0.12
+    angular_speed: 0.5
+    travel_distance: 0.35
+    circle_radius: 0.5
+    greeting_angle: 0.45
+    segment_pause_sec: 1.0
+    obstacle_distance: 0.55
+    max_demo_radius: 2.0
+    motion_timeout_sec: 90.0
